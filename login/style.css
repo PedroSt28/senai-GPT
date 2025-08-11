@@ -1,0 +1,34 @@
+.titulo{
+
+font-size: 76px;
+
+}
+
+
+.robo-image{
+
+height: 100vh;
+width: 50vw;
+background-color: blue;
+
+}
+
+.login-container{
+
+height: 100vh;
+width: 50vw;
+background-color: green;
+
+/*kit sobrevivenvia da centralizaçao*/
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.page-container{
+
+display: flex;
+
+}
