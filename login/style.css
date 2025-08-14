@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-
 *{
 
 padding: 0px; /* margem interna */
@@ -13,9 +12,16 @@ font-family:"Inter";
 .titulo{
 
 font-size: 76px;
+font-weight: 400;
+margin-bottom: 16px;
 
 }
 
+.page-container{
+
+display: flex;
+
+}
 
 .robo-image{
 
@@ -23,7 +29,7 @@ height: 100vh;
 width: 50vw;
 background-image: url("../assets/imgs/robo-GPT.png");
 background-size: cover;
-background-position: 0px, 100px;
+background-position: 0px, 120px;
 }
 
 .login-container{
@@ -36,9 +42,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-}
-
-/*.classe{          ponto antes para classe
+}/*.classe{ ponto antes para classe
 
 }
 
@@ -49,17 +53,23 @@ justify-content: center;
 img{      so digitar o prefixo para a tag
 */
 
-.page-container{
 
-display: flex;
-
-}
-
-.login-container img{
+.login-container-img{
+    
 height: 60px;
 
 }
 
+.inpt{
+
+padding: 18px;/*margem interna*/
+background-color:#F7F9FB ;
+width: 377px;
+border: 1px solid #ccc;
+border-radius: 10px;
+margin-bottom: 16px;
+}
+ 
 .button{
 
 border-radius: 10px;
