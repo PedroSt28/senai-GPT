@@ -59,23 +59,14 @@ img{      so digitar o prefixo para a tag
 height: 60px;
 
 }
-
-.inpt{
-
-padding: 18px;/*margem interna*/
-background-color:#F7F9FB ;
-width: 377px;
-border: 1px solid #ccc;
-border-radius: 10px;
-margin-bottom: 16px;
-}
  
 .button{
 
 border-radius: 10px;
 background-color: rgb(0, 0, 0);
 color: aliceblue;
-width: 185px
+width: 377px;
+padding: 18px;
 
 }
 
@@ -87,4 +78,5 @@ width: 185px
      padding: 18px;
      background-color: rgb(255, 255, 255);
      border: 1px solid black;
+     
 }

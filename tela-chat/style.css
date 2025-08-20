@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+
+padding: 0px; /* margem interna */
+margin: 0px;/* margem externa*/
+box-sizing: border-box; /* muda estrutura de espaçamento*/
+
+}
+
+.container{
+
+    
+display: flex;
+
+
+    
+}
+
+
+.left-side{
+
+height: 100%;
+width: 20%;
+background-color: blue;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+
+.top{
+
+display: flex;
+flex-direction: column;
+align-items:center ;
+padding: 20px;
+
+}
+
+.top input{
+
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 242px;
+    height: 40px;
+    border-radius: 10px;
+   margin: 10px;
+    display: flex;
+   
+}
+
+.upp input{
+
+background-color: aliceblue;
+height: 48px;
+width: 242px;
+display: flex;
+border-radius: 0%;
+}
+
+.central-panel{
+
+background-color: rgb(35, 116, 55);
+height: 100vh;
+width: 80vw;
+
+}
+
+.top{
+
+width: 100%;
+height: 300px;
+background-color: rgb(255, 255, 255);
+
+}
+
+.baixo{
+
+width: 100%;
+height: 300px;
+background-color: rgb(255, 255, 255);
+
+}
+
+.logo{
+
+height: 50px;
+width: 50px;
+display: flex;
+justify-content: center;
+
+}
