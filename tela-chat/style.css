@@ -45,8 +45,10 @@ margin: 20px;
     width: 242px;
     height: 40px;
     border-radius: 10px;
-   margin: 10px;
+  margin: 10px;
     display: flex;
+    padding: 10px;
+    color: white;
    
 }
 
