@@ -131,7 +131,7 @@
 //const user2 = prompt("Confirme seu nome de Usuario")
 //const password2 = prompt("Confirme sua senha")
 
-//if (user1 == user2 && password1 == password2) {
+//if (user1 == "adm" && password1 == 1234) {
 //    alert("login bem sucedido")
 //} else {
 //    alert("negado")
@@ -142,16 +142,54 @@
 //exercicio Avançado 1 
 
 
-const lado1 = prompt("primeiro lado do triangulo")
-const lado2 = prompt("segundo lado")
-const lado3 = prompt("terceiro lado ")
 
-if(lado1==lado2 && lado1==lado3){
+//const lado1 = prompt("primeiro lado do triangulo")
+//const lado2 = prompt("segundo lado")
+//const lado3 = prompt("terceiro lado ")
 
-    alert("triangulo equilatero")
+//if (lado1 == lado2 && lado1 == lado3) {
+//    alert("triangulo equilatero")
+//} else {
+//    if (lado1 == lado3 || lado1 == lado2) {
+//        alert("triangulo isoceles")
+//    } else {
+//        alert("o triangulo é escaleno")
+//    }
+//}
 
-}
+
+
+//exercicio Avançado 3
 
 
 
+//let peso = Number(prompt("digite seu peso"))
+//let altura = Number(prompt("digite sua alura"))
+//imc = (peso / (altura * altura))
 
+//if (25 < imc) {
+//    alert("acima do peso ")
+//} else {
+//    if (18.5 > imc) {
+//        alert("abaixo do peso")
+//    } else {
+//        alert("peso ideal")
+//    }
+//}
+
+
+//exercicio Avançado 4
+
+
+//let year = Number(prompt("digite um ano para verificar que é bisexto"))
+//calculo = (year % 4 == 0 && year % 100 == !0)
+
+//if (calculo) {
+//    alert("é bisexto")
+//} else {
+//    if (year % 400 === 0) {
+//        alert("é bisexto")
+//    } else {
+//        alert("nao é bisexto")
+//    }
+//}
