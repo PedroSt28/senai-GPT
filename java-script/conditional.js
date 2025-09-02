@@ -1,22 +1,27 @@
 //exercicio i
 
-//const old = prompt("quantos anos voce tem?")
-
-//if (old >= 18) {//
-//    alert("vai tirar a CNH")
-//} else {
-//    alert("voce é de menor, super nani")
-//}
-
+function cond1 () {
+    const old = prompt("quantos anos voce tem?")
+    
+    if (old >= 18) {
+        alert("vai tirar a CNH")
+    } else {
+        alert("voce é de menor, super nani")
+    }
+    
+}
 //exercicio 2 
 
-//const number = prompt("DIGITE UM NUMERO QUALQUER")
-//if (number < 0) {
+function cond2 (){
 
-//    alert("seu numero é negativo ")
-//} else {
-//    alert("seu numero é positivo")
-//}
+    const number = prompt("DIGITE UM NUMERO QUALQUER")
+    if (number < 0) {
+        
+        alert("seu numero é negativo ")
+    } else {
+            alert("seu numero é positivo")
+        }
+    }
 
 
 //exercicio 3
